@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TABLES</title>
+    <style>
+      td {
+        text-align: center;
+      }
+
+      #baslik {
+        color: white;
+        background-color: #4472c4;
+      }
+
+      .left {
+        text-align: left;
+      }
+
+      .time {
+        background-color: #e7ebf5;
+      }
+
+      .day {
+        background-color: #ccd5ea;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table width="40%">
+      <thead>
+        <tr>
+          <th id="baslik" colspan="7">Zaman Çizelgesi</th>
+        </tr>
+      </thead>
+      <br />
+
+      <tbody class="day">
+        <tr>
+          <td class="left">Günler</td>
+          <td></td>
+          <td>Ptesi</td>
+          <td>Salı</td>
+          <td>Çarş</td>
+          <td>Perş</td>
+          <td>Cuma</td>
+        </tr>
+
+        <tr class="time">
+          <td class="left" rowspan="8">Saatler</td>
+          <td>1</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Fen</td>
+        </tr>
+
+        <tr></tr>
+
+        <tr class="day">
+          <!-- <td>Saatler</td> -->
+          <td>2</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Türkçe</td>
+          <td>Mat</td>
+          <td>Fen</td>
+        </tr>
+
+        <tr></tr>
+
+        <tr>
+          <th class="time" colspan="7">DİNLENME</th>
+        </tr>
+
+        <tr class="day">
+          <!-- <td>Saatler</td> -->
+          <td>3</td>
+          <td>Sosyal</td>
+          <td>Müzik</td>
+          <td>Sosyal</td>
+          <td>Fen</td>
+          <td>Din</td>
+        </tr>
+
+        <tr></tr>
+
+        <tr class="time">
+          <!-- <td>Saatler</td> -->
+          <td>4</td>
+          <td>Sosyal</td>
+          <td>Beden</td>
+          <td>Sosyal</td>
+          <td>Fen</td>
+          <td>Din</td>
+        </tr>
+
+        <tr></tr>
+      </tbody>
+    </table>
+  </body>
+</html>
